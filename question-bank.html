@@ -3,50 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question Bank</title>
+    <title>HSC Past Paper Question Bank</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="question_bank.html">Question Bank</a>
     </nav>
-    <h1>HSC past paper question bank /h1>
-    <div id="filter-bar">
-        <!-- Year Filter -->
-        <label for="year">Year:</label>
-        <select id="year">
-            <option value="all">All Years</option>
-            <option value="2022">2022</option>
-            <option value="2021">2021</option>
-        </select>
 
-        <!-- Subject Filter -->
-        <label for="subject">Subject:</label>
-        <select id="subject">
-            <option value="all">Select Subject</option>
-            <option value="chemistry">Chemistry</option>
-            <option value="physics">Physics</option>
-            <option value="mathematics">Mathematics</option>
-        </select>
+    <!-- Page Header -->
+    <header>
+        <h1>HSC Past Paper Question Bank</h1>
+    </header>
 
-        <!-- Module Filter -->
-        <label for="module">Module:</label>
-        <select id="module">
-            <option value="all">All Modules</option>
-        </select>
+    <!-- Filter Bar -->
+    <section id="filter-bar">
+        <form id="filter-form">
+            <!-- Year Filter -->
+            <label for="year">Year:</label>
+            <select id="year" name="year">
+                <option value="all">All Years</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+            </select>
 
-        <!-- Topic Filter -->
-        <label for="topic">Topic:</label>
-        <select id="topic">
-            <option value="all">All Topics</option>
-        </select>
-    </div>
+            <!-- Subject Filter -->
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="all">Select Subject</option>
+                <option value="chemistry">Chemistry</option>
+                <option value="physics">Physics</option>
+                <option value="mathematics">Mathematics</option>
+            </select>
 
-    <button id="filter-button">Filter Questions</button>
-    <ul id="questions-list"></ul>
+            <!-- Module Filter -->
+            <label for="module">Module:</label>
+            <select id="module" name="module">
+                <option value="all">All Modules</option>
+            </select>
 
+            <!-- Topic Filter -->
+            <label for="topic">Topic:</label>
+            <select id="topic" name="topic">
+                <option value="all">All Topics</option>
+            </select>
+
+            <!-- Filter Button -->
+            <button id="filter-button" type="button">Filter Questions</button>
+        </form>
+    </section>
+
+    <!-- Questions List -->
+    <section id="questions-list-container">
+        <ul id="questions-list">
+            <!-- Filtered questions will appear here -->
+        </ul>
+    </section>
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
