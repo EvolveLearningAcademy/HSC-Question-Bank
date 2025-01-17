@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 20px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    margin-right: 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+#filters {
+    margin: 20px;
+    text-align: center;
+}
+
+#filters label, #filters select {
+    margin: 5px;
+}
+
+#questions-list {
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#questions-list li {
+    margin: 10px 0;
+}
+
+#questions-list a {
+    text-decoration: none;
+    color: #0044cc;
+}

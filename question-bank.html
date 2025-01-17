@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the Question Bank</h1>
+    <div id="filter-bar">
+        <!-- Year Filter -->
+        <label for="year">Year:</label>
+        <select id="year">
+            <option value="all">All Years</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+        </select>
+
+        <!-- Subject Filter -->
+        <label for="subject">Subject:</label>
+        <select id="subject">
+            <option value="all">Select Subject</option>
+            <option value="chemistry">Chemistry</option>
+            <option value="physics">Physics</option>
+            <option value="mathematics">Mathematics</option>
+        </select>
+
+        <!-- Module Filter -->
+        <label for="module">Module:</label>
+        <select id="module">
+            <option value="all">All Modules</option>
+        </select>
+
+        <!-- Topic Filter -->
+        <label for="topic">Topic:</label>
+        <select id="topic">
+            <option value="all">All Topics</option>
+        </select>
+    </div>
+
+    <button id="filter-button">Filter Questions</button>
+    <ul id="questions-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

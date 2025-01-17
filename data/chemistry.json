@@ -1,0 +1,63 @@
+{
+    "modules": [
+      {
+        "module": "Module 1",
+        "topics": [
+          { "topic": "Acids and Bases" },
+          { "topic": "Stoichiometry" }
+        ]
+      },
+      {
+        "module": "Module 2",
+        "topics": [
+          { "topic": "Equilibrium" }
+        ]
+      }
+    ],
+    "papers": [
+      {
+        "year": "2022",
+        "url": "https://educationstandards.nsw.edu.au/wps/wcm/connect/f9447ca0-8d67-474a-a8a7-ccda95061656/2022-hsc-chemistry.pdf",
+        "questions": [
+          {
+            "module": "Module 1",
+            "topic": "Acids and Bases",
+            "questions": [
+              { "number": 1, "page": 2 },
+              { "number": 5, "page": 7 }
+            ]
+          },
+          {
+            "module": "Module 1",
+            "topic": "Stoichiometry",
+            "questions": [
+              { "number": 8, "page": 10 }
+            ]
+          },
+          {
+            "module": "Module 2",
+            "topic": "Equilibrium",
+            "questions": [
+              { "number": 12, "page": 14 },
+              { "number": 15, "page": 20 }
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "url": "https://educationstandards.nsw.edu.au/wps/wcm/connect/abcd1234-5678-9def-ghij-klmnopqrstuv/2021-hsc-chemistry.pdf",
+        "questions": [
+          {
+            "module": "Module 1",
+            "topic": "Acids and Bases",
+            "questions": [
+              { "number": 3, "page": 4 },
+              { "number": 9, "page": 12 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
