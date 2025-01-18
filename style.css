@@ -1,59 +1,143 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    line-height: 1.6;
+    background-color: #f9f9f9;
 }
 
+/* Navigation Bar */
+.navbar {
+    background-color: #0044cc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Page Header */
 header {
     background-color: #0044cc;
     color: white;
-    padding: 10px 20px;
+    padding: 20px;
+    text-align: center;
 }
 
-header ul {
-    list-style-type: none;
+header h1 {
     margin: 0;
-    padding: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+/* Filter Section */
+#filter-bar {
+    background-color: #e8e8e8;
+    padding: 15px 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#filter-bar form {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
-header ul li {
-    margin-right: 15px;
+#filter-bar label {
+    font-weight: bold;
+    margin-right: 5px;
 }
 
-header ul li a {
+#filter-bar select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Filter Button */
+#filter-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0044cc;
     color: white;
-    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 20px;
-    color: #333;
+#filter-button:hover {
+    background-color: #003399;
 }
 
-#filters {
-    margin: 20px;
-    text-align: center;
-}
-
-#filters label, #filters select {
-    margin: 5px;
+/* Questions List */
+#questions-list-container {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 800px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #questions-list {
-    margin: 20px;
     padding: 0;
+    margin: 0;
     list-style-type: none;
-    text-align: center;
 }
 
 #questions-list li {
     margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#questions-list li:last-child {
+    border-bottom: none;
 }
 
 #questions-list a {
     text-decoration: none;
     color: #0044cc;
+    font-weight: bold;
+}
+
+#questions-list a:hover {
+    text-decoration: underline;
+    color: #003399;
+}
+
+/* Footer (Optional for Consistency) */
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
