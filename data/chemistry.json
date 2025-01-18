@@ -1,14 +1,74 @@
 {
     "modules": [
       {
-        "module": "Module 1",
+        "module": "Module 1: Properties and Structure of Matter",
         "topics": [
-          { "topic": "Acids and Bases" },
-          { "topic": "Stoichiometry" }
+          { "topic": "Equilibrium" }
         ]
       },
       {
-        "module": "Module 2",
+        "module": "Module 2: Introduction to Quantitative Chemistry",
+        "topics": [
+          { "topic": "Equilibrium" }
+        ]
+      },
+      {
+        "module": "Module 3: Reactive Chemistry",
+        "topics": [
+          { "topic": "Equilibrium" }
+        ]
+      },
+      {
+        "module": "Module 4: Drivers of Reactions",
+        "topics": [
+          { "topic": "Equilibrium" }
+        ]
+      },
+      {
+        "module": "Module 5: Equilibrium and Acid Reactions",
+        "topics": [
+          { "topic": "Equilibrium" }
+        ]
+      },
+      {
+        "module": "Module 6: Acids/Base Reactions",
+        "inquiry questions": [
+          { 
+            "topic": "Properties of Acids and Bases",
+            "subtopics": [
+              "Properties and IUPAC nomenclature",
+              "Products of acid reactions and balanced equations",
+              "Applications of neutralisation reactions",
+              "Acid/base models"
+            ]
+          },
+          { 
+            "topic": "Using Brønsted Lowry Theory",
+            "subtopics": [
+              "pH and pOH calculations",
+              "strength of acids and bases",
+              "conjugate acid/base pairs",
+              "amphiprotic nature of salts",
+              "pH of the resultant solution"
+            ] },
+          { 
+            "topic": "Quantitative Analysis",
+            "subtopics": [ 
+              "titration curves and conductivity graphs",
+              "dissociation constant (Ka)",
+              "acid/base analysis techniques",
+              "buffers"
+            ] }
+        ]
+      },
+      {
+        "module": "Module 7: Organic Chemistry",
+        "topics": [
+          { "topic": "Equilibrium" }
+        ]
+      },
+      {
+        "module": "Module 8: Applying Chemical Ideas",
         "topics": [
           { "topic": "Equilibrium" }
         ]
@@ -17,47 +77,134 @@
     "papers": [
       {
         "year": "2022",
-        "url": "https://educationstandards.nsw.edu.au/wps/wcm/connect/f9447ca0-8d67-474a-a8a7-ccda95061656/2022-hsc-chemistry.pdf",
+        "url": "https://educationstandards.nsw.edu.au/wps/wcm/connect/f9447ca0-8d67-474a-a8a7-ccda95061656/2022-hsc-chemistry.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-f9447ca0-8d67-474a-a8a7-ccda95061656-ogRvEgE",
         "questions": [
           {
-            "module": "Module 1",
-            "topic": "Acids and Bases",
+            "module": "Module 5: Equilibrium and Acid Reactions",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Properties and IUPAC nomenclature",
             "questions": [
               { "number": 1, "page": 2 },
               { "number": 5, "page": 7 }
             ]
           },
           {
-            "module": "Module 1",
-            "topic": "Stoichiometry",
+            "module": "Module 6: Acids/Base Reactions",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Properties and IUPAC nomenclature",
+            "questions": [
+              { "number": 1, "page": 2 },
+              { "number": 5, "page": 7 }
+            ]
+          },
+          {
+            "module": "Module 6: Acids/Base Reactions",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Products of acid reactions and balanced equations",
             "questions": [
               { "number": 8, "page": 10 }
             ]
           },
           {
-            "module": "Module 2",
-            "topic": "Equilibrium",
+            "module": "Module 6: Acids/Base Reactions",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Applications of neutralisation reactions",
             "questions": [
-              { "number": 12, "page": 14 },
-              { "number": 15, "page": 20 }
+              { "number": 8, "page": 10 }
+            ]
+          },
+          {
+            "module": "Module 6: Acids/Base Reactions",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Acid/base models",
+            "questions": [
+              { "number": 8, "page": 10 }
+            ]
+          },
+          {
+            "module": "Module 7: Organic Chemistry",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Properties and IUPAC nomenclature",
+            "questions": [
+              { "number": 1, "page": 2 },
+              { "number": 5, "page": 7 }
+            ]
+          },
+          {
+            "module": "Module 8: Applying Chemical Ideas",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Products of acid reactions and balanced equations",
+            "questions": [
+              { "number": 8, "page": 10 }
             ]
           }
         ]
       },
       {
         "year": "2021",
-        "url": "https://educationstandards.nsw.edu.au/wps/wcm/connect/abcd1234-5678-9def-ghij-klmnopqrstuv/2021-hsc-chemistry.pdf",
+        "url": "https://educationstandards.nsw.edu.au/wps/wcm/connect/e75585c5-1fe2-455a-a1bf-6c2c84c42d0a/2021-hsc-chemistry.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-e75585c5-1fe2-455a-a1bf-6c2c84c42d0a-nSymB4p",
         "questions": [
           {
-            "module": "Module 1",
-            "topic": "Acids and Bases",
+            "module": "Module 5: Equilibrium and Acid Reactions",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Properties and IUPAC nomenclature",
             "questions": [
-              { "number": 3, "page": 4 },
-              { "number": 9, "page": 12 }
+              { "number": 1, "page": 2 },
+              { "number": 5, "page": 7 }
+            ]
+          },
+          {
+            "module": "Module 6: Acids/Base Reactions",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Properties and IUPAC nomenclature",
+            "questions": [
+              { "number": 1, "page": 2 },
+              { "number": 5, "page": 7 }
+            ]
+          },
+          {
+            "module": "Module 6: Acids/Base Reactions",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Products of acid reactions and balanced equations",
+            "questions": [
+              { "number": 8, "page": 10 }
+            ]
+          },
+          {
+            "module": "Module 6: Acids/Base Reactions",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Applications of neutralisation reactions",
+            "questions": [
+              { "number": 8, "page": 10 }
+            ]
+          },
+          {
+            "module": "Module 6: Acids/Base Reactions",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Acid/base models",
+            "questions": [
+              { "number": 8, "page": 10 }
+            ]
+          },
+          {
+            "module": "Module 7: Organic Chemistry",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Properties and IUPAC nomenclature",
+            "questions": [
+              { "number": 1, "page": 2 },
+              { "number": 5, "page": 7 }
+            ]
+          },
+          {
+            "module": "Module 8: Applying Chemical Ideas",
+            "topic": "Properties of Acids and Bases",
+            "subtopic": "Products of acid reactions and balanced equations",
+            "questions": [
+              { "number": 8, "page": 10 }
             ]
           }
         ]
       }
     ]
-  }
+}
   
