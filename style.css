@@ -5,10 +5,11 @@ body {
     padding: 0;
     line-height: 1.6;
     background-color: #535e1a;
+    color: white;
 }
 
 main {
-    margin-left: 20px; /* Adjust this value as needed */
+    margin-left: 40px; /* Adjust this value as needed */
 }
 
 /* Navigation Bar */
