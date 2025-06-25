@@ -4,7 +4,11 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f9f9f9;
+    background-color: #535e1a;
+}
+
+main {
+    margin-left: 20px; /* Adjust this value as needed */
 }
 
 /* Navigation Bar */
