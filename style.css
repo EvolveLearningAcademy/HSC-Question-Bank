@@ -9,7 +9,11 @@ body {
 }
 
 main {
-    margin-left: 40px; /* Adjust this value as needed */
+    margin-left: 80px; /* Adjust this value as needed */
+}
+
+#filter-bar label {
+    color: black; /* Makes all labels in the filter bar black */
 }
 
 /* Navigation Bar */
